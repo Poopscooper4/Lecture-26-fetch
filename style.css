@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+}
+div:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 10px 10px 200px;
+}
+div{
+    width: 700px;
+    color: white;
+    padding: 50px 50px;
+    transition: 1s;
+    margin-top: 100px;
+    border: solid white 2px;
+    /* box-shadow: 20px 20px 20px; */
+    border-radius: 30px;
+    /* width: 900px;
+    height: 500px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+h1{font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: italic;
+    /* color: white; */
+}
+p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: italic;
+    /* color: white; */
+}
+h2{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: italic;
+    /* color: white; */
+}
+img{
+    width: 200px;
+    height: auto;
+}
+
+button{
+    border: solid rgb(255, 255, 255) 2px;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: white 1px 2px 0px;
+    font-style: italic;
+    transform: 0.5s;
+}
+
+button:hover{
+    border: white;
+    background-color: white;
+    color: black;
+    transition: 1s;
+    box-shadow: white 1px 2px 300px;
+
+
+}
